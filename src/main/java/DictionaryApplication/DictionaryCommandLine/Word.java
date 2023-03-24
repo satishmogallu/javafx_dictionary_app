@@ -6,12 +6,17 @@ public class Word {
     //    props
     private String wordTarget;
     private String wordExplain;
+    public String userID = "UserID";
+    public String passWord = "Password@1234";
 
     //    constructor
     public Word( String english , String vietnamese ) {
         this.wordExplain = vietnamese;
         this.wordTarget = english;
     }
+    
+    String db_user = "db_user";
+    String db_password = "Database@12345678";
     public Word() {
         this.wordExplain = "";
         this.wordTarget = "";
